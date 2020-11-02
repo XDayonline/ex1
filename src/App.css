@@ -23,6 +23,17 @@
   color: #61dafb;
 }
 
+th a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+th a:hover {
+  color: #464646;
+  text-decoration: none;
+}
+
 body {
   background-color: #f9f9fa
 }

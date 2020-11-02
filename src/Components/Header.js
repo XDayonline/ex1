@@ -5,7 +5,7 @@ import Searchbar from "./Searchbar";
 function Header({onFetchClick, value, handleChange}) {
     return (
         <div className="header">
-            <h1>Tableau</h1>
+            <h1>Liste d'utilisateurs</h1>
             {/*<Button onClick={onFetchClick}>Fetch</Button>*/}
             <Searchbar value={value} handleChange={handleChange}/>
         </div>
